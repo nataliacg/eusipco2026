@@ -24,27 +24,16 @@ The project compares different bioacoustic foundation models under zero-shot and
 
 ## Repository Structure
 
+```
 eusipco2026/
-
-│
-
 ├── data/
-
 │   └── manifests/        # CSV files defining dataset splits
-
-│
-
 ├── src/
-
-│   ├── zero\_shot/        # Zero-shot evaluation scripts
-
+│   ├── zero_shot/        # Zero-shot evaluation scripts
 │   └── finetune/         # Fine-tuning / MLP adaptation scripts
-
-│
-
 ├── requirements.txt
-
 └── .gitignore
+```
 
 ---
 
