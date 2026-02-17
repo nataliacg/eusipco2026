@@ -1,0 +1,45 @@
+# =========================
+# Audio / Large files
+# =========================
+*.wav
+*.mp3
+*.flac
+*.zip
+*.tar
+*.gz
+
+# Dataset folders (if present locally)
+Train/
+Val/
+Test_9/
+Test_40/
+BirdNET/
+
+# =========================
+# Models / Checkpoints
+# =========================
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+models/
+
+# =========================
+# Secrets
+# =========================
+.env
+*.key
+*.pem
+secrets.*
+credentials.*
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+
+# =========================
+# Outputs
+# =========================
+results/
