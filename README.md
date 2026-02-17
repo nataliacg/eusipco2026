@@ -1,8 +1,4 @@
-# eusipco2026
-
-
-
-\# EUSIPCO 2026 – Bioacoustic Model Comparison
+# EUSIPCO 2026 – Bioacoustic Model Comparison
 
 
 
@@ -26,7 +22,7 @@ The project compares different bioacoustic foundation models under zero-shot and
 
 
 
-\## Repository Structure
+## Repository Structure
 
 eusipco2026/
 
@@ -54,7 +50,7 @@ eusipco2026/
 
 
 
-\## Dataset
+## Dataset
 
 
 
@@ -82,7 +78,7 @@ Audio files must be available locally following the paths defined in the manifes
 
 
 
-\## Environment Setup
+## Environment Setup
 
 
 
@@ -90,7 +86,7 @@ We recommend using separate virtual environments for each model:
 
 
 
-\### Example (Windows)
+### Example (Windows)
 
 
 
