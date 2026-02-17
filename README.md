@@ -159,11 +159,11 @@ Running Zero-Shot Experiments
 
 python src/zero\_shot/biolingual.py \\
 
-&nbsp; --manifest data/manifests/dataset\_manifest\_TEST\_9.csv \\
+    --manifest data/manifests/dataset\_manifest\_TEST\_9.csv \\
 
-&nbsp; --model\_path /path/to/biolingual\_model \\
+    --model\_path /path/to/biolingual\_model \\
 
-&nbsp; --results\_dir results/biolingual/test\_9
+    --results\_dir results/biolingual/test\_9
 
 ```
 
@@ -172,19 +172,19 @@ python src/zero\_shot/biolingual.py \\
 ```bash
 python src/zero\_shot/naturelm\_audio.py \\
 
-&nbsp; --manifest data/manifests/dataset\_manifest\_TEST\_9.csv \\
+    --manifest data/manifests/dataset\_manifest\_TEST\_9.csv \\
 
-&nbsp; --results\_dir results/naturelm/test\_9
+    --results\_dir results/naturelm/test\_9
 
 
 ```
 
 ```bash
-python src/zero\_shot/birdnet.py \\
+src/zero\_shot/birdnet.py \\
 
-&nbsp; --manifest data/manifests/dataset\_manifest\_TEST\_40.csv \\
+    --manifest data/manifests/dataset\_manifest\_TEST\_40.csv \\
 
-&nbsp; --results\_dir results/birdnet/test\_40
+    --results\_dir results/birdnet/test\_40
 
 
 ```
