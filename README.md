@@ -155,7 +155,7 @@ BirdNET experiments should be run inside the BirdNET environment.
 
 Running Zero-Shot Experiments
 
-
+```bash
 
 python src/zero\_shot/biolingual.py \\
 
@@ -165,10 +165,11 @@ python src/zero\_shot/biolingual.py \\
 
 &nbsp; --results\_dir results/biolingual/test\_9
 
+```
 
 
 
-
+```bash
 python src/zero\_shot/naturelm\_audio.py \\
 
 &nbsp; --manifest data/manifests/dataset\_manifest\_TEST\_9.csv \\
@@ -176,9 +177,9 @@ python src/zero\_shot/naturelm\_audio.py \\
 &nbsp; --results\_dir results/naturelm/test\_9
 
 
+```
 
-
-
+```bash
 python src/zero\_shot/birdnet.py \\
 
 &nbsp; --manifest data/manifests/dataset\_manifest\_TEST\_40.csv \\
@@ -186,7 +187,7 @@ python src/zero\_shot/birdnet.py \\
 &nbsp; --results\_dir results/birdnet/test\_40
 
 
-
+```
 
 
 Outputs
